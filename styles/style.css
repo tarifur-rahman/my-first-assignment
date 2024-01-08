@@ -223,7 +223,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    /* gap: 60px; */
+    margin-bottom:120px ;
 }
 
 
@@ -301,5 +301,50 @@
 }
 /* best offer section style end  */
 
+.holiday-section{
+    width: 82%;
+    background-color: #FFF;
+    margin: 0 auto;
+    text-align: center;
+}
+.holiday-short-title{
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+.holiday-title{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-bottom: 28px;
+}
+.holiday-dial{
+    color: #F00;
+}
+.holiday-description{
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    margin-bottom: 64px;
+    width: 81%;
+    height: 95px;
+    margin: 0 auto;
+}
+
+
+.holiday-img-sectiom {
+   
+}
 
 

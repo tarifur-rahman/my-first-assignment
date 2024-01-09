@@ -476,7 +476,6 @@
     transform: scale(0.8);
     transition: 1s ease;
 }
-
 /* portfolios section style end */
 /* subscribe section style start */
 .subscribe-section{
@@ -556,4 +555,81 @@
 }
 /* subscribe section style end */
 
+/* footer section style start */
+footer{
+    width: 100%;
+    background-color: #070211;
+    margin-top: 120px;
+}
+.footer-part-one{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 120px 190px 50px 140px;
+}
+.address-section p{
+    width: 375px;
+    height: 80px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+}
 
+.contact-section i{
+    width: 20px;
+    height: 20px;
+    padding: 20px;
+    flex-shrink: 0;
+    color: #FFF;
+}
+.contact-section{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+}
+.custom-hr{
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0.15);
+    height: 1px;
+    border: 0;
+    margin: 0 auto;
+}
+.social-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+.social-section img{
+    width: 64px;
+}
+.footer-part-two{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 140px 100px 140px;
+}
+.copyright-section{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.footer-secound-part{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+/* footer section style end */

@@ -146,7 +146,6 @@
     flex-shrink: 0;
 }
 .new-year-img img{
-    /* padding: 128px 68px 68px 0; */
     width: 240px;
     padding-right: 200px;
     padding-left: 10px;
@@ -301,6 +300,8 @@
 }
 /* best offer section style end  */
 
+/* holiday section style start */
+
 .holiday-section{
     width: 82%;
     background-color: #FFF;
@@ -342,9 +343,45 @@
     margin: 0 auto;
 }
 
-
-.holiday-img-sectiom {
-   
+.gift-img{
+    position: absolute;
+    bottom: 30px;
+    left: 100px;
 }
+.gift-img img{
+    width: 500px;
+}
+.discount-img{
+    position: absolute;
+    z-index: 1;
+    right: 190px;
+    bottom: 220px;
+}
+.discount-img img{
+    width: 220px;
+}
+.holiday-container{
+    position: relative;
+    width: 82%;
+    max-width: 1320px;
+    margin: 0 auto;
+    margin-top: 350px;
+}
+.woman-img img{
+    width: 300px;
+}
+.woman-img{
+    position: absolute;
+    right: 0;
+    bottom:190px ;
+}
+.red-img img{
+    width: 100%;
+}
+
+/* holiday section style end */
+
+
+
 
 
